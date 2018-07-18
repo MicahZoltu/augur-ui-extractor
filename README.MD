@@ -1,14 +1,14 @@
 ## Build
 
 ```bash
-docker image build --tag MicahZoltu/augur-ui-extractor .
+docker image build --tag micahzoltu/augur-ui-extractor .
 ```
 
 ## Run
 
 #### Latest
 ```bash
-docker container run --rm -it --volumes-from ipfs MicahZoltu/augur-ui-extractor
+docker container run --rm -it --volumes-from ipfs micahzoltu/augur-ui-extractor
 ```
 #### Specific Version
 ```bash

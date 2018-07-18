@@ -6,6 +6,6 @@ RUN apk add curl wget jq
 COPY start.sh /start.sh
 RUN chmod 755 /start.sh
 
-WORKDIR /export
+WORKDIR ~
 VOLUME [ "/export" ]
 ENTRYPOINT [ "sh", "/start.sh" ]
